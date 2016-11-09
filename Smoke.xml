@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" parallel="false">
+    
+<test name=" Execute retest test cases">
+   
+<classes>
+<class name="Testcases.LoginTest"></class>
+<class name="Testcases.GroupselectTest"></class>
+<class name="Testcases.HomeTest"></class>
+</classes>  
+
+</test>
+
+
+<test name=" Execute Radial view test cases">
+   
+
+<classes>
+
+<class name="Testcases.RadialViewTest"></class>
+<class name="Testcases.Modulespage_RadialView"></class>
+</classes>
+
+    
+</test>
+
+<test name=" Execute Table view test cases">
+<classes>
+
+<class name="Testcases.TableViewTest"></class>
+<class name="Testcases.Modulespage_TableView"></class>
+
+</classes>    
+</test>
+
+<test name=" Execute Administration page test cases">
+   
+
+<classes>
+
+<class name="Testcases.AdministrationTest"></class>
+ </classes>   
+</test>
+
+<test name=" Execute RunReport page test cases">
+   
+
+<classes>
+
+<class name="Testcases.RunReportTest"></class>
+
+</classes>   
+</test>
+</suite>

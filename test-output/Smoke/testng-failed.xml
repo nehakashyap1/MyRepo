@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
+  <test name=" Execute Administration page test cases(failed)">
+    <classes>
+      <class name="Testcases.LoginTest">
+        <methods>
+          <include name="startlogin"/>
+          <include name="configure"/>
+        </methods>
+      </class> <!-- Testcases.LoginTest -->
+      <class name="Testcases.EditStudentTest">
+        <methods>
+          <include name="Configure"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Testcases.EditStudentTest -->
+      <class name="Testcases.TableViewTest">
+        <methods>
+          <include name="Close_Test"/>
+          <include name="configure"/>
+        </methods>
+      </class> <!-- Testcases.TableViewTest -->
+      <class name="Testcases.Modulespage_RadialView">
+        <methods>
+          <include name="configure"/>
+        </methods>
+      </class> <!-- Testcases.Modulespage_RadialView -->
+      <class name="Testcases.Modulespage_TableView">
+        <methods>
+          <include name="configure"/>
+        </methods>
+      </class> <!-- Testcases.Modulespage_TableView -->
+      <class name="Testcases.AddStudentTest">
+        <methods>
+          <include name="CheckValidationsEmptyFields"/>
+          <include name="Configure"/>
+          <include name="CheckValidationDuplicateStudentName"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Testcases.AddStudentTest -->
+      <class name="Testcases.RadialViewTest">
+        <methods>
+          <include name="configure"/>
+          <include name="Close_Test"/>
+        </methods>
+      </class> <!-- Testcases.RadialViewTest -->
+      <class name="Testcases.HomeTest">
+        <methods>
+          <include name="configure"/>
+          <include name="Start"/>
+          <include name="waiting"/>
+        </methods>
+      </class> <!-- Testcases.HomeTest -->
+      <class name="Testcases.GroupselectTest">
+        <methods>
+          <include name="start"/>
+          <include name="configure"/>
+        </methods>
+      </class> <!-- Testcases.GroupselectTest -->
+      <class name="Testcases.AdministrationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="configure"/>
+        </methods>
+      </class> <!-- Testcases.AdministrationTest -->
+      <class name="Testcases.RunReportTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="configure"/>
+        </methods>
+      </class> <!-- Testcases.RunReportTest -->
+    </classes>
+  </test> <!--  Execute Administration page test cases(failed) -->
+</suite> <!-- Failed suite [Smoke] -->

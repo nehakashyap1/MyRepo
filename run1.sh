@@ -1,0 +1,1 @@
+$JAVA_HOME -cp bin;libs\*; org.testng.TestNG Smoke.xml
